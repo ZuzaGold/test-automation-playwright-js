@@ -86,7 +86,7 @@ test.describe("Objednávka pro MŠ/ZŠ", async () => {
         contactPhone,
         contactEmail,
         startDate,
-        endDate
+        endDate,
       );
       await orderPage.setUrbanCamp("Odpolední", "20", "10", "2");
       await orderPage.submit();

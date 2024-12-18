@@ -4,9 +4,8 @@ import { expect, test } from "@playwright/test";
 import { password, username } from "../../fixtures/fixtures";
 
 test.describe("Assertion Examples", () => {
-
-  test.beforeEach(async ({page}) => {
-    await page.goto('/');
+  test.beforeEach(async ({ page }) => {
+    await page.goto("/");
   });
 
   test("visibility, attached in DOM, toHaveValue, ", async ({ page }) => {

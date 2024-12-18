@@ -66,7 +66,7 @@ export class OrderPage extends AppPage {
     contactPhone,
     contactEmail,
     startDate,
-    endDate
+    endDate,
   ) {
     await this.substitute.fill(substituteName);
     await this.contactName.fill(contactName);

@@ -132,7 +132,7 @@ test.describe("Objednávka pro MŠ/ZŠ", async () => {
       await expect(orderPage.toast).toHaveText(ORDER_SUCCESS_TOAST);
       await expect(orderPage.contentHeader).toHaveText(ORDER_SUCCESS);
       await expect(orderPage.orderConfirmationText).toHaveText(
-        ORDER_SUCCESS_MESSAGE
+        ORDER_SUCCESS_MESSAGE,
       );
     });
   });
