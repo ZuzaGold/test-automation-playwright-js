@@ -58,5 +58,5 @@ test.describe("Order", async () => {
         await emailField.fill("zvitkovacentrum.cz");
         await expect(fieldError).toHaveText("Zadejte prosím platnou e-mailovou adresu.");
     });
-
+    
 });
